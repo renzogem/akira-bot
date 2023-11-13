@@ -24,8 +24,8 @@ module.exports = async ( message, reaction, client ) => {
                 console.log('added');
                 await message.message.reactions.removeAll();
             }
+            await message.message.reactions.removeAll();
         }
-        await message.message.reactions.removeAll();
     } catch (error) {
     console.error('Error: ', error);
     return;
