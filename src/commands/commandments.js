@@ -46,7 +46,7 @@ Enjoy your time with the people here.
 
 After reading this, react to this message and you will be granted access to **C R Y**.
         `);
-        interaction.reply('done');
+        interaction.reply({ content: 'done', ephemeral: true });
     },
 
     options: {

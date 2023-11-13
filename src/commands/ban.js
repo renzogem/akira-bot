@@ -7,7 +7,7 @@ module.exports = {
     },
 
     run: ({ interaction }) => {
-        interaction.reply('fuck you!');
+        interaction.reply('banned!');
     },
 
     options: {
